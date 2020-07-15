@@ -70,7 +70,7 @@ def scandinavia
     FROM
       countries
     WHERE
-      name IN (''Denmark, 'Finland', 'Norway', 'Sweden');
+      name IN ('Denmark', 'Finland', 'Norway', 'Sweden');
   SQL
 end
 
